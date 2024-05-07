@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greetings | Madlibs!</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <h1>Nice to meet you, {{ name }}.</h1>
+    <p>You're very {{ compliment }}.</p>
+
+    <form action="/game">
+      <p>Would you like to play a game?</p>
+
+      <input type="radio" name="play" id="yesBtn" value="yes"/>
+      <label for="yesBtn">Yes</label>
+
+      <input type="radio" name="play" id="noBtn" value="no"/>
+      <label for="noBtn">No</label>
+
+      <input type="submit" name="submit"/>
+    </form>
+  </body>
+
+</html>

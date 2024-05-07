@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enjoy! | Madlibs!</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <h1>Enjoy your Madlib!</h1>
+    
+    <p>{{ template | replace('{person}', person) | replace('{noun}', noun) | replace('{color}', color) | replace('{adjective}', adjective)}}</p>
+    
+  </body>
+</html>
